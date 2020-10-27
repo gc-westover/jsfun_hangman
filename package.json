@@ -1,0 +1,13 @@
+{
+    "name": "hangman",
+    "version": "1.0.0",
+    "engine": {
+      "node": "12.10.0"
+    },
+    "main": "index.js",
+    "author": "Greg W.",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gc-westover/jsfun_hangman.git"
+    }
+  }
