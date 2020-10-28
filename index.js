@@ -1,6 +1,6 @@
 const readline = require('readline')
-const wordBank = require('./word-bank.json')
-const graphic = require('./ascii.json')
+const wordBank = require('./assets/word-bank.json')
+const graphic = require('./assets/ascii.json')
 
 const rl = readline.createInterface(
     {
@@ -28,7 +28,7 @@ const round = () => {
     console.log(`\n Welcome to Round ${rounds}! Press Ctrl + C to exit at any time.`)
     console.log(`This session, you have won ${wins===1 ? '1 time': `${wins} times`} and lost ${losses===1 ? '1 time': `${losses} times`}`)
     console.log(result)
-    
+
     guess()
 }
 

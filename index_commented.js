@@ -1,7 +1,6 @@
 const readline = require('readline')
-const wordBank = require('./word-bank.json')
-const graphic = require('./ascii.json')
-
+const wordBank = require('./assets/word-bank.json')
+const graphic = require('./assets/ascii.json')
 // Initialize interface for IO stream
 const rl = readline.createInterface(
     {
